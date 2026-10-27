@@ -1,0 +1,35 @@
+{
+  "name": "color-pixel",
+  "private": true,
+  "version": "0.2.1",
+  "type": "module",
+  "scripts": {
+    "dev": "wxt",
+    "build": "wxt build",
+    "zip": "wxt zip",
+    "check": "tsc --noEmit",
+    "test": "vitest run",
+    "postinstall": "wxt prepare",
+    "test:e2e": "npm run build && playwright test",
+    "icons": "node scripts/generate-icons.mjs"
+  },
+  "dependencies": {
+    "lucide-react": "^1.62.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/node": "^26.6.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@wxt-dev/module-react": "^1.2.2",
+    "sharp": "^0.35.5",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.5",
+    "vitest": "^5.0.5",
+    "wxt": "^0.21.5"
+  }
+}

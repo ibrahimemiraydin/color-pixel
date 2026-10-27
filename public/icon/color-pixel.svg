@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 64 64" fill="none">
+  <title>Color Pixel</title>
+  <desc>A lime pixel-shaped C and a detached mint color sample on a charcoal rounded tile.</desc>
+  <defs>
+    <linearGradient id="tile" x1="8" y1="0" x2="54" y2="64" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#252B30"/>
+      <stop offset="1" stop-color="#111518"/>
+    </linearGradient>
+    <linearGradient id="lime" x1="16" y1="12" x2="40" y2="52" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D5FF80"/>
+      <stop offset="1" stop-color="#A3E635"/>
+    </linearGradient>
+    <linearGradient id="mint" x1="40" y1="26" x2="54" y2="40" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#89FFE3"/>
+      <stop offset="1" stop-color="#2DD4BF"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="62" height="62" rx="15" fill="url(#tile)" stroke="#424C53" stroke-width="1"/>
+  <path d="M24 12H48V24H24V40H48V52H24V44H12V20H24V12Z" fill="url(#lime)"/>
+  <rect x="40" y="26" width="14" height="14" rx="1" fill="url(#mint)"/>
+</svg>

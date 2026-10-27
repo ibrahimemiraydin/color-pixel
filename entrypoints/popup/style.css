@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+:root { font-family: 'Segoe UI', system-ui, sans-serif; color: #fafafa; background: #131416; color-scheme: dark; font-synthesis: none; }
+body { margin: 0; width: 360px; }
+button { cursor: pointer; transition: background .15s, transform .15s; }
+button:disabled { cursor: default; opacity: .4; }
+select:disabled { opacity: .4; }
+button:focus-visible, input:focus-visible, select:focus-visible { outline: 2px solid #a3e635; outline-offset: 3px; }
+.logo { display: block; width: 34px; height: 34px; flex-shrink: 0; }
+.version { font-size: 10px; color: #777a80; border: 1px solid #2e3035; padding: 3px 7px; border-radius: 6px; }
+.swatch { height: 88px; border: 1px solid #ffffff15; }
+.pick-button { color: #172009; background: #a3e635; }
+.pick-button:hover:not(:disabled) { background: #bef264; }
+.code-row { background: #1c1e21; border: 1px solid #ffffff07; }
+.icon-button { color: #71717a; border-radius: 4px; }
+.icon-button:hover:not(:disabled) { color: #f4f4f5; background: #ffffff0a; }
+.hex-input { border-width: 1px; background: #16181a; }
+.apply-button { background: #2a2d31; color: #d4d4d8; }
+.apply-button:hover:not(:disabled) { background: #383c41; }
+.history-swatch { border: 1px solid #ffffff25; }
+.history-swatch:hover { transform: translateY(-2px); }
+.history-swatch[aria-pressed=true] { outline: 1px solid #fff; outline-offset: 2px; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
